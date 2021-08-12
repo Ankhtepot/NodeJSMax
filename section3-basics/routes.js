@@ -14,7 +14,6 @@ const requestHandler = (req, res) => {
 
     if (url === "/message" && method === 'POST') {
         const body = [];
-        console.log('kekekek');
 
         req.on('data', (chunk) => {
             console.log(chunk);
