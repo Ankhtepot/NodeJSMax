@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const requestHandler = (req, res) => {
     const url = req.url;
-    const method = req.url;
+    const method = req.method;
 
     if (url === '/') {
         res.write('<html>');
@@ -34,7 +34,7 @@ const requestHandler = (req, res) => {
     res.setHeader('Content-Type', 'text/html');
     res.write('<html lang="en-eu">');
     res.write('<head><title>My first page</title></head>');
-    res.write('<body><h1>Hello from my Node.js Server!</h1><body>');
+    res.write('<body><h1>Hello from my Node.js Server!!!</h1><body>');
     res.write('</html>');
     res.end();
 }
