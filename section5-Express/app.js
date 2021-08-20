@@ -1,20 +1,20 @@
 const express = require('express');
+const path = require('path');
 
 const app = express();
 
-app.use('/', (req, res, next) => {
-    console.log('this always runs');
-    next();
+const adminRoutes = require('./routes/admin');
+const shopRoutes = require('./routes/shop');
+
+app.use(express.urlencoded( {extended: true} ));
+
+app.use('/admin', adminRoutes);
+app.use(shopRoutes);
+
+app.use((req, res) => {
+    // res.status(404).send('<h1>Page not found</h1>');
+    res.sendFile(path.join(__dirname, 'views', '404.html'));
 })
 
-app.use('/add-product', (req,res, next) => {
-    console.log('In another middleware.');
-    res.send('<h1>The "Add Product" page.</h1>')
-});
-
-app.use('/', (req,res, next) => {
-    console.log('In another middleware.');
-    res.send('<h1>Hello from Express!</h1>')
-});
 
 app.listen(3010);
