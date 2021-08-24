@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ab72dd8-8a67-481c-89e6-7f9b5ef53757" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/section3-basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/section5-express.iml" afterDir="false" />
+    <list default="true" id="5ab72dd8-8a67-481c-89e6-7f9b5ef53757" name="Changes" comment="Up to lesson 71. Adding 404 page.">
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/.idea/section5-Assignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/routes/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/utilities/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section5-Assignment2/views/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/products.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/public/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/public/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/routes/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/routes/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/util/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/views/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/views/add-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section6-starting-setup/views/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +58,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -49,8 +75,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629431769031</updated>
-      <workItem from="1629431770701" duration="4891000" />
+      <workItem from="1629431770701" duration="4925000" />
+      <workItem from="1629689775982" duration="14000" />
+      <workItem from="1629776191998" duration="3227000" />
+      <workItem from="1629780502268" duration="1952000" />
     </task>
+    <task id="LOCAL-00001" summary="Up to lesson 71. Adding 404 page.">
+      <created>1629439488178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629439488178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,5 +103,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Up to lesson 71. Adding 404 page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 71. Adding 404 page." />
   </component>
 </project>
