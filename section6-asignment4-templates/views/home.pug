@@ -1,0 +1,14 @@
+extends layouts/main-layout
+
+block styles
+    link(rel="stylesheet", href="/css/forms.css")
+
+block content
+    main
+        h1 Home
+        p Enter user
+        form.product-form(action="/users", method="POST")
+            .form-control
+                label(for="user") User name
+                input(type="text", name="user", id="user")
+            button.btn(type="submit") Add User
